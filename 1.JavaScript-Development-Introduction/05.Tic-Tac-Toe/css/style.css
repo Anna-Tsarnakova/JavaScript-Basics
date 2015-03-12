@@ -1,0 +1,46 @@
+*{
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+}
+#wrapper{
+    width: 500px;
+    height: 500px;
+    margin: 10px auto;
+
+}
+.box{
+    width: 296px;
+    height: 296px;
+    border-collapse: collapse;
+
+}
+
+.box td {
+
+    border: 1px solid black;
+}
+.box input{
+    width: 100px;
+    height: 100px;
+    font-size: 90px;
+    text-align: center;
+    padding: 4px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    color: #294f52;
+    background-color: #b3c6a7;
+
+}
+#reset{
+    background-color: #294f52;
+    color: white;
+    width: 304px;
+    height: 45px;
+    font-size: 35px;
+    align-items: center;
+    vertical-align: middle;
+    text-align: center;
+    margin: 5px auto;
+}
