@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+    <head lang="en">
+        <meta charset="UTF-8">
+        <title>Problem 1. Webinar registration form</title>
+        <link rel="stylesheet" href="css/style.css"/>
+        <script src="js/script.js"></script>
+    </head>
+    <body>
+        <form>
+            <h3>Регистрация за уебинар</h3>
+            <div id="person-data">
+                <label for="name">Име и Фамилия:<span class="star">*</span></label>
+                <input id ="name" type="text" value="" required />
+                <label for="address">Адрес:</label>
+                <input id="address" type="text" value="" />
+                <label for="place">Населено място:</label>
+                <input id="place" type="text" value="" />
+                <label for="zip-code">Пощенски код:</label>
+                <input id="zip-code" type="text" value="" />
+                <label for="email">Email:<span class="star">*</span></label>
+                <input id="email" type="email" value="" required />
+                <label for="phone">Телефон:<span class="star">*</span></label>
+                <input id="phone" type="text" value="" required />
+                <label for="date">Дата на семинара:<span class="star">*</span></label>
+                <input id="date" type="date" value="" required />
+                <input id="checkbox" type="checkbox" value="" onclick="showData()"/>
+                <label for="checkbox" id="checkbox-label">Желая фактура</label>
+            </div>
+            <div id="company-data">
+                <label for="company">Фирма/Организация:<span class="star">*</span></label>
+                <input id="company" type="text" value="" required />
+                <label for="manager">МОЛ:<span class="star">*</span></label>
+                <input id="manager" type="text" value="" required />
+                <label for="UIC">ЕИК:<span class="star">*</span></label>
+                <input id="UIC" type="text" value="" required />
+                <label for="vat-number">ИН по ДДС:<span class="star">*</span></label>
+                <input id="vat-number" type="text" value="" required />
+                <label for="address-company">Адрес:<span class="star">*</span></label>
+                <input id="address-company" type="text" value="" required />
+            </div>
+            <div id="buttons">
+                <input type="submit" value="Регистрирай се"/>
+                <input type="reset" value="Изчисти"/>
+            </div>
+        </form>
+
+    </body>
+</html>

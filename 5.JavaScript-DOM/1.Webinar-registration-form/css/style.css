@@ -1,0 +1,53 @@
+body {
+    font-family: Arial, sans-serif;
+    box-sizing: border-box;
+}
+form {
+    width: 400px;
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    background-color: #fff5e5;
+    margin: 10px auto;
+}
+h3 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+div {
+    margin: 0 auto;
+}
+div#company-data{
+    visibility: hidden;
+
+    /*second solution*/
+    /*display: none;*/
+}
+div#buttons {
+    display: inline-flex;
+}
+input {
+    display: block;
+    margin-bottom: 8px;
+}
+label {
+    display: block;
+}
+input[type="text"], input[type="email"]{
+    width: 200px;
+    padding: 4px;
+}
+div#buttons input{
+    font-size: 16px;
+    padding: 3px 5px;
+}
+input[type="submit"] {
+    margin-right: 5px;
+}
+#checkbox, #checkbox-label {
+    display: inline-flex;
+    cursor: pointer;
+}
+span.star {
+    color: red;
+}
